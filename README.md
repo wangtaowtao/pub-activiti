@@ -9,4 +9,6 @@
 3. 修改profile->dev.properties的数据库配置
 4. 右键项目->Run as->maven build..->在页面Goals:处输入命令jetty:run(启动8888端口)
 5. 浏览器输入localhost:8888
+
+
 ![首页](https://raw.githubusercontent.com/wangtaowtao/image/master/activiti/activiti-index.png)

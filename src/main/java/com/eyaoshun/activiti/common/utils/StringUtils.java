@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * 字符串工具类, 继承org.apache.commons.lang3.StringUtils�?
+ * 字符串工具类, 继承org.apache.commons.lang3.StringUtils类
  * 
  * @author
  * @version
@@ -19,7 +19,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     private static final String CHARSET_NAME = "UTF-8";
     
     /**
-     * 转换为字节数�?
+     * 转换为字节数组
      * 
      * @param str
      * @return
@@ -44,7 +44,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
     
     /**
-     * 转换为字节数�?
+     * 转换为字节数组
      * 
      * @param str
      * @return
@@ -62,9 +62,9 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
     
     /**
-     * 是否包含字符�?
+     * 是否包含字符串
      * 
-     * @param str 验证字符�?
+     * @param str 验证字符串
      * @param strs 字符串组
      * @return 包含返回true
      */
@@ -100,7 +100,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
     
     /**
-     * 替换为手机识别的HTML，去掉样式及属�?�，保留回车�?
+     * 替换为手机识别的HTML，去掉样式及属性，保留回车。
      * 
      * @param html
      * @return
@@ -179,7 +179,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
     
     /**
-     * 驼峰命名法工�?
+     * 驼峰命名法工具
      * 
      * @return toCamelCase("hello_world") == "helloWorld" toCapitalizeCamelCase("hello_world") == "HelloWorld"
      *         toUnderScoreCase("helloWorld") = "hello_world"
@@ -218,7 +218,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
     
     /**
-     * 驼峰命名法工�?
+     * 驼峰命名法工具
      * 
      * @return toCamelCase("hello_world") == "helloWorld" toCapitalizeCamelCase("hello_world") == "HelloWorld"
      *         toUnderScoreCase("helloWorld") = "hello_world"
@@ -234,7 +234,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
     
     /**
-     * 驼峰命名法工�?
+     * 驼峰命名法工具
      * 
      * @return toCamelCase("hello_world") == "helloWorld" toCapitalizeCamelCase("hello_world") == "HelloWorld"
      *         toUnderScoreCase("helloWorld") = "hello_world"
@@ -279,7 +279,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
     
     /**
-     * 如果不为空，则设置�??
+     * 如果不为空，则设置值
      * 
      * @param target
      * @param source
@@ -295,7 +295,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     /**
      * 转换为JS获取对象值，生成三目运算返回结果
      * 
-     * @param objectString 对象�? 例如：row.user.id 返回�?!row?'':!row.user?'':!row.user.id?'':row.user.id
+     * @param objectString 对象串 例如：row.user.id 返回：!row?'':!row.user?'':!row.user.id?'':row.user.id
      */
     public static String jsGetVal(String objectString)
     {
